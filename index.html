@@ -7,32 +7,114 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <title>War3维基 - war3.wiki</title>
-    <link href="static/css/style.css">
+    <link href="static/css/style.css" rel="stylesheet">
     <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-    <div class="alert alert-warning text-center vw-100" style="font-size: 16px;" role="alert">
-        War3.Wiki - COMING SOON!
+<header class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+        <h1 class="display-4">War3维基</h1>
+        <p class="lead">欢迎来到War3维基，这里是魔兽争霸3游戏地图的知识库和资源中心。</p>
     </div>
-    <div class="text-center vw-100 vh-90" style="padding-top: 150px">
-        <img class="rounded mx-auto d-block" style="width: 200px;height: auto;" src="static/images/coming_soon.jpg" alt="COMING_SOON">
-        <br>
-        <a style="margin-top: 15px" class="btn btn-outline-info btn-lg" href="#" role="button">敬请期待...</a>
-    </div>
-    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="toast-header">
-            <img src="..." class="rounded mr-2" alt="...">
-            <strong class="mr-auto">Bootstrap</strong>
-            <small class="text-muted">11 mins ago</small>
-            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
+</header>
+
+<section class="container mt-5">
+    <h2 class="text-center mb-5">地图类型</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body text-center">
+                    <i class="fas fa-shield-alt fa-4x mb-3"></i>
+                    <h5 class="card-title">防守地图</h5>
+                    <p class="card-text">防守地图要求玩家建立并升级防御来抵挡一波又一波的敌人进攻。</p>
+                </div>
+            </div>
         </div>
-<!--        <div class="toast-body">-->
-<!--            加入我们 <a href="mailto:team@war3.wiki" class="alert-link">发送到:team@war3.wiki</a>-->
-<!--            <br>-->
-<!--            Join us <a href="mailto:team@war3.wiki" class="alert-link">Send to:team@war3.wiki</a>-->
-<!--        </div>-->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body text-center">
+                    <i class="fas fa-crosshairs fa-4x mb-3"></i>
+                    <h5 class="card-title">对抗地图</h5>
+                    <p class="card-text">对抗地图提供了与其他玩家竞争的机会，让您体验紧张刺激的多人游戏。</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body text-center">
+                    <i class="fas fa-users fa-4x mb-3"></i>
+                    <h5 class="card-title">角色地图</h5>
+                    <p class="card-text">角色地图让玩家扮演不同的角色，体验各种丰富的角色扮演情节和游戏机制。</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body text-center">
+                    <i class="fas fa-chess-rook fa-4x mb-3"></i>
+                    <h5 class="card-title">TD塔防</h5>
+                    <p class="card-text">TD塔防地图要求玩家建立并升级防御塔来抵挡一波又一波的敌人进攻。</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body text-center">
+                    <i class="fas fa-landmark fa-4x mb-3"></i>
+                    <h5 class="card-title">战役地图</h5>
+                    <p class="card-text">战役地图是一个连续的故事情节，玩家可以通过完成一系列的任务来推进剧情。</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body text-center">
+                    <i class="fas fa-user-secret fa-4x mb-3"></i>
+                    <h5 class="card-title">ORPG</h5>
+                    <p class="card-text">ORPG（Online Role-Playing Game）是一种多人在线角色扮演游戏。</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body text-center">
+                    <i class="fas fa-bomb fa-4x mb-3"></i>
+                    <h5 class="card-title">生存地图</h5>
+                    <p class="card-text">生存地图要求玩家在敌人的进攻下生存并尽量延长生存时间。</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body text-center">
+                    <i class="fas fa-ellipsis-h fa-4x mb-3"></i>
+                    <h5 class="card-title">其他地图</h5>
+                    <p class="card-text">其他类型的魔兽争霸3地图。</p>
+                </div>
+            </div>
+        </div>
     </div>
+</section>
+
+<footer class="footer-container">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h5>联系方式</h5>
+                <p>Email: <a href="mailto:admin@xvkes.cn" class="text-light">admin@xvkes.cn</a></p>
+            </div>
+            <div class="footer-column">
+                <h5>关于我们</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-light">首页</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2023 War3维基. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
